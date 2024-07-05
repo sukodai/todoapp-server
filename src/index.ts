@@ -61,5 +61,5 @@ app.delete("/deleteTodo/:id", async (req: Request, res: Response) => {
 
 // サーバー起動
 app.listen(PORT, () => {
-  console.log(`Server is up on http://localhost:${PORT}`);
+  console.log(`Server is running on http://localhost:${PORT}`);
 });
